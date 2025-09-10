@@ -1,0 +1,158 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    background: #f4f6f8;
+}
+
+aside {
+    width: 240px;
+    background: #1e1e2f;
+    color: #fff;
+    height: 100vh;
+    position: fixed;
+    padding: 20px 15px;
+    overflow-y: auto;
+}
+
+aside h2 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #00d4ff;
+}
+
+aside a {
+    display: block;
+    color: #ddd;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    transition: 0.2s;
+}
+
+aside a:hover {
+    background: #00d4ff;
+    color: #000;
+}
+
+main {
+    margin-left: 260px;
+    padding: 30px;
+    flex: 1;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #00d4ff;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+ul {
+    line-height: 1.6;
+}
+
+.api-card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin: 20px 0;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    max-width: 900px;
+}
+
+.api-header {
+    background: #f7f7f7;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    font-family: monospace;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.method {
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.method.post {
+    background: #28a745;
+}
+
+.method.get {
+    background: #007bff;
+}
+
+.method.put {
+    background: #ffc107;
+    color: #000;
+}
+
+.method.delete {
+    background: #dc3545;
+}
+
+.url {
+    color: #333;
+}
+
+.api-section {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+}
+
+.api-section:last-child {
+    border-bottom: none;
+}
+
+.api-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+.api-section table th,
+.api-section table td {
+    border: 1px solid #e0e0e0;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.api-section table th {
+    background: #f4f6f8;
+    color: #333;
+    font-weight: 600;
+}
+
+.api-section table tr:nth-child(even) {
+    background: #fafafa;
+}
+
+pre {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    overflow-x: auto;
+}
+
+footer {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
